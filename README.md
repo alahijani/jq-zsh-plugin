@@ -1,6 +1,6 @@
 # jq zsh plugin
 
-Interactively build [jq](https://stedolan.github.io/jq/) expressions.
+Interactively build [jq](https://stedolan.github.io/jq/) expressions with key completions.
 
 This zsh plugin gives you jq superpowers!
 
@@ -55,6 +55,7 @@ During interactive querying, the following shortcuts can be used:
 
 | Shortcut | Effect |
 | ------ | -------- |
+| `tab` | Accept the current suggested query |
 | `shift + up` | Scroll up |
 | `shift + down` | Scroll down |
 | `alt + up` | Scroll up full page |
